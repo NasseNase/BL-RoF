@@ -1,0 +1,3422 @@
+fileFormatVersion: 2
+guid: 2579d882b7ebfbd46b2ec2b0d98b9bda
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: body
+    100004: Bone
+    100006: Bone_001
+    100008: Bone_002
+    100010: Bone_003
+    100012: Bone_004
+    100014: chest
+    100016: crown
+    100018: eyes
+    100020: f_index_01_L
+    100022: f_index_01_R
+    100024: f_index_02_L
+    100026: f_index_02_R
+    100028: f_index_03_L
+    100030: f_index_03_R
+    100032: f_middle_01_L
+    100034: f_middle_01_R
+    100036: f_middle_02_L
+    100038: f_middle_02_R
+    100040: f_middle_03_L
+    100042: f_middle_03_R
+    100044: f_ring_01_L
+    100046: f_ring_01_R
+    100048: f_ring_02_L
+    100050: f_ring_02_R
+    100052: f_ring_03_L
+    100054: f_ring_03_R
+    100056: foot_L
+    100058: foot_L_IK
+    100060: foot_R
+    100062: foot_R_001
+    100064: foot_R_IK
+    100066: forearm_L
+    100068: forearm_R
+    100070: hand_L
+    100072: hand_R
+    100074: head
+    100076: heel_02_L
+    100078: heel_02_R
+    100080: heel_L
+    100082: heel_R
+    100084: hips
+    100086: hips_main
+    100088: Jaw-Bone
+    100090: metarig
+    100092: neck
+    100094: palm_01_L
+    100096: palm_01_R
+    100098: palm_02_L
+    100100: palm_02_R
+    100102: palm_03_L
+    100104: palm_03_R
+    100106: shin_L
+    100108: shin_R
+    100110: shoulder_L
+    100112: shoulder_R
+    100114: Skirt_Back_Root
+    100116: Skirt_Back_Tip
+    100118: Skirt_Root
+    100120: Skirt_Root_001
+    100122: Skirt_Root_002
+    100124: spine
+    100126: Staff
+    100128: Staff_Bone
+    100130: thigh_L
+    100132: thigh_R
+    100134: thumb_01_L
+    100136: thumb_01_R
+    100138: thumb_02_L
+    100140: thumb_02_R
+    100142: thumb_03_L
+    100144: thumb_03_R
+    100146: toe_L
+    100148: toe_R
+    100150: upper_arm_L
+    100152: upper_arm_R
+    100154: WGT-chest
+    100156: WGT-elbow_hose_L
+    100158: WGT-elbow_hose_R
+    100160: WGT-elbow_target_ik_L
+    100162: WGT-elbow_target_ik_R
+    100164: WGT-f_index_01_L
+    100166: WGT-f_index_01_R
+    100168: WGT-f_index_02_L
+    100170: WGT-f_index_02_R
+    100172: WGT-f_index_03_L
+    100174: WGT-f_index_03_R
+    100176: WGT-f_index_L
+    100178: WGT-f_index_R
+    100180: WGT-f_middle_01_L
+    100182: WGT-f_middle_01_R
+    100184: WGT-f_middle_02_L
+    100186: WGT-f_middle_02_R
+    100188: WGT-f_middle_03_L
+    100190: WGT-f_middle_03_R
+    100192: WGT-f_middle_L
+    100194: WGT-f_middle_R
+    100196: WGT-f_ring_01_L
+    100198: WGT-f_ring_01_R
+    100200: WGT-f_ring_02_L
+    100202: WGT-f_ring_02_R
+    100204: WGT-f_ring_03_L
+    100206: WGT-f_ring_03_R
+    100208: WGT-f_ring_L
+    100210: WGT-f_ring_R
+    100212: WGT-foot_fk_L
+    100214: WGT-foot_fk_R
+    100216: WGT-foot_ik_L
+    100218: WGT-foot_ik_R
+    100220: WGT-foot_roll_ik_L
+    100222: WGT-foot_roll_ik_R
+    100224: WGT-forearm_fk_L
+    100226: WGT-forearm_fk_R
+    100228: WGT-forearm_hose_L
+    100230: WGT-forearm_hose_R
+    100232: WGT-hand_fk_L
+    100234: WGT-hand_fk_R
+    100236: WGT-hand_ik_L
+    100238: WGT-hand_ik_R
+    100240: WGT-head
+    100242: WGT-hips
+    100244: WGT-knee_hose_L
+    100246: WGT-knee_hose_R
+    100248: WGT-knee_target_ik_L
+    100250: WGT-knee_target_ik_R
+    100252: WGT-neck
+    100254: WGT-palm_L
+    100256: WGT-palm_R
+    100258: WGT-root
+    100260: WGT-shin_fk_L
+    100262: WGT-shin_fk_R
+    100264: WGT-shin_hose_L
+    100266: WGT-shin_hose_R
+    100268: WGT-shoulder_L
+    100270: WGT-shoulder_R
+    100272: WGT-spine
+    100274: WGT-thigh_fk_L
+    100276: WGT-thigh_fk_R
+    100278: WGT-thigh_hose_L
+    100280: WGT-thigh_hose_R
+    100282: WGT-thumb_01_L
+    100284: WGT-thumb_01_R
+    100286: WGT-thumb_02_L
+    100288: WGT-thumb_02_R
+    100290: WGT-thumb_03_L
+    100292: WGT-thumb_03_R
+    100294: WGT-thumb_L
+    100296: WGT-thumb_R
+    100298: WGT-toe_L
+    100300: WGT-toe_R
+    100302: WGT-torso
+    100304: WGT-upper_arm_fk_L
+    100306: WGT-upper_arm_fk_R
+    100308: WGT-upper_arm_hose_L
+    100310: WGT-upper_arm_hose_R
+    100312: WGT-VIS-foot_ik_L
+    100314: WGT-VIS-foot_ik_R
+    100316: WGT-VIS-hand_ik_L
+    100318: WGT-VIS-hand_ik_R
+    100320: WGT-VIS-thigh_pole_ik_L
+    100322: WGT-VIS-thigh_pole_ik_R
+    100324: WGT-VIS-upper_arm_pole_ik_L
+    100326: WGT-VIS-upper_arm_pole_ik_R
+    400000: //RootNode
+    400002: body
+    400004: Bone
+    400006: Bone_001
+    400008: Bone_002
+    400010: Bone_003
+    400012: Bone_004
+    400014: chest
+    400016: crown
+    400018: eyes
+    400020: f_index_01_L
+    400022: f_index_01_R
+    400024: f_index_02_L
+    400026: f_index_02_R
+    400028: f_index_03_L
+    400030: f_index_03_R
+    400032: f_middle_01_L
+    400034: f_middle_01_R
+    400036: f_middle_02_L
+    400038: f_middle_02_R
+    400040: f_middle_03_L
+    400042: f_middle_03_R
+    400044: f_ring_01_L
+    400046: f_ring_01_R
+    400048: f_ring_02_L
+    400050: f_ring_02_R
+    400052: f_ring_03_L
+    400054: f_ring_03_R
+    400056: foot_L
+    400058: foot_L_IK
+    400060: foot_R
+    400062: foot_R_001
+    400064: foot_R_IK
+    400066: forearm_L
+    400068: forearm_R
+    400070: hand_L
+    400072: hand_R
+    400074: head
+    400076: heel_02_L
+    400078: heel_02_R
+    400080: heel_L
+    400082: heel_R
+    400084: hips
+    400086: hips_main
+    400088: Jaw-Bone
+    400090: metarig
+    400092: neck
+    400094: palm_01_L
+    400096: palm_01_R
+    400098: palm_02_L
+    400100: palm_02_R
+    400102: palm_03_L
+    400104: palm_03_R
+    400106: shin_L
+    400108: shin_R
+    400110: shoulder_L
+    400112: shoulder_R
+    400114: Skirt_Back_Root
+    400116: Skirt_Back_Tip
+    400118: Skirt_Root
+    400120: Skirt_Root_001
+    400122: Skirt_Root_002
+    400124: spine
+    400126: Staff
+    400128: Staff_Bone
+    400130: thigh_L
+    400132: thigh_R
+    400134: thumb_01_L
+    400136: thumb_01_R
+    400138: thumb_02_L
+    400140: thumb_02_R
+    400142: thumb_03_L
+    400144: thumb_03_R
+    400146: toe_L
+    400148: toe_R
+    400150: upper_arm_L
+    400152: upper_arm_R
+    400154: WGT-chest
+    400156: WGT-elbow_hose_L
+    400158: WGT-elbow_hose_R
+    400160: WGT-elbow_target_ik_L
+    400162: WGT-elbow_target_ik_R
+    400164: WGT-f_index_01_L
+    400166: WGT-f_index_01_R
+    400168: WGT-f_index_02_L
+    400170: WGT-f_index_02_R
+    400172: WGT-f_index_03_L
+    400174: WGT-f_index_03_R
+    400176: WGT-f_index_L
+    400178: WGT-f_index_R
+    400180: WGT-f_middle_01_L
+    400182: WGT-f_middle_01_R
+    400184: WGT-f_middle_02_L
+    400186: WGT-f_middle_02_R
+    400188: WGT-f_middle_03_L
+    400190: WGT-f_middle_03_R
+    400192: WGT-f_middle_L
+    400194: WGT-f_middle_R
+    400196: WGT-f_ring_01_L
+    400198: WGT-f_ring_01_R
+    400200: WGT-f_ring_02_L
+    400202: WGT-f_ring_02_R
+    400204: WGT-f_ring_03_L
+    400206: WGT-f_ring_03_R
+    400208: WGT-f_ring_L
+    400210: WGT-f_ring_R
+    400212: WGT-foot_fk_L
+    400214: WGT-foot_fk_R
+    400216: WGT-foot_ik_L
+    400218: WGT-foot_ik_R
+    400220: WGT-foot_roll_ik_L
+    400222: WGT-foot_roll_ik_R
+    400224: WGT-forearm_fk_L
+    400226: WGT-forearm_fk_R
+    400228: WGT-forearm_hose_L
+    400230: WGT-forearm_hose_R
+    400232: WGT-hand_fk_L
+    400234: WGT-hand_fk_R
+    400236: WGT-hand_ik_L
+    400238: WGT-hand_ik_R
+    400240: WGT-head
+    400242: WGT-hips
+    400244: WGT-knee_hose_L
+    400246: WGT-knee_hose_R
+    400248: WGT-knee_target_ik_L
+    400250: WGT-knee_target_ik_R
+    400252: WGT-neck
+    400254: WGT-palm_L
+    400256: WGT-palm_R
+    400258: WGT-root
+    400260: WGT-shin_fk_L
+    400262: WGT-shin_fk_R
+    400264: WGT-shin_hose_L
+    400266: WGT-shin_hose_R
+    400268: WGT-shoulder_L
+    400270: WGT-shoulder_R
+    400272: WGT-spine
+    400274: WGT-thigh_fk_L
+    400276: WGT-thigh_fk_R
+    400278: WGT-thigh_hose_L
+    400280: WGT-thigh_hose_R
+    400282: WGT-thumb_01_L
+    400284: WGT-thumb_01_R
+    400286: WGT-thumb_02_L
+    400288: WGT-thumb_02_R
+    400290: WGT-thumb_03_L
+    400292: WGT-thumb_03_R
+    400294: WGT-thumb_L
+    400296: WGT-thumb_R
+    400298: WGT-toe_L
+    400300: WGT-toe_R
+    400302: WGT-torso
+    400304: WGT-upper_arm_fk_L
+    400306: WGT-upper_arm_fk_R
+    400308: WGT-upper_arm_hose_L
+    400310: WGT-upper_arm_hose_R
+    400312: WGT-VIS-foot_ik_L
+    400314: WGT-VIS-foot_ik_R
+    400316: WGT-VIS-hand_ik_L
+    400318: WGT-VIS-hand_ik_R
+    400320: WGT-VIS-thigh_pole_ik_L
+    400322: WGT-VIS-thigh_pole_ik_R
+    400324: WGT-VIS-upper_arm_pole_ik_L
+    400326: WGT-VIS-upper_arm_pole_ik_R
+    2300000: WGT-chest
+    2300002: WGT-elbow_hose_L
+    2300004: WGT-elbow_hose_R
+    2300006: WGT-elbow_target_ik_L
+    2300008: WGT-elbow_target_ik_R
+    2300010: WGT-f_index_01_L
+    2300012: WGT-f_index_01_R
+    2300014: WGT-f_index_02_L
+    2300016: WGT-f_index_02_R
+    2300018: WGT-f_index_03_L
+    2300020: WGT-f_index_03_R
+    2300022: WGT-f_index_L
+    2300024: WGT-f_index_R
+    2300026: WGT-f_middle_01_L
+    2300028: WGT-f_middle_01_R
+    2300030: WGT-f_middle_02_L
+    2300032: WGT-f_middle_02_R
+    2300034: WGT-f_middle_03_L
+    2300036: WGT-f_middle_03_R
+    2300038: WGT-f_middle_L
+    2300040: WGT-f_middle_R
+    2300042: WGT-f_ring_01_L
+    2300044: WGT-f_ring_01_R
+    2300046: WGT-f_ring_02_L
+    2300048: WGT-f_ring_02_R
+    2300050: WGT-f_ring_03_L
+    2300052: WGT-f_ring_03_R
+    2300054: WGT-f_ring_L
+    2300056: WGT-f_ring_R
+    2300058: WGT-foot_fk_L
+    2300060: WGT-foot_fk_R
+    2300062: WGT-foot_ik_L
+    2300064: WGT-foot_ik_R
+    2300066: WGT-foot_roll_ik_L
+    2300068: WGT-foot_roll_ik_R
+    2300070: WGT-forearm_fk_L
+    2300072: WGT-forearm_fk_R
+    2300074: WGT-forearm_hose_L
+    2300076: WGT-forearm_hose_R
+    2300078: WGT-hand_fk_L
+    2300080: WGT-hand_fk_R
+    2300082: WGT-hand_ik_L
+    2300084: WGT-hand_ik_R
+    2300086: WGT-head
+    2300088: WGT-hips
+    2300090: WGT-knee_hose_L
+    2300092: WGT-knee_hose_R
+    2300094: WGT-knee_target_ik_L
+    2300096: WGT-knee_target_ik_R
+    2300098: WGT-neck
+    2300100: WGT-palm_L
+    2300102: WGT-palm_R
+    2300104: WGT-root
+    2300106: WGT-shin_fk_L
+    2300108: WGT-shin_fk_R
+    2300110: WGT-shin_hose_L
+    2300112: WGT-shin_hose_R
+    2300114: WGT-shoulder_L
+    2300116: WGT-shoulder_R
+    2300118: WGT-spine
+    2300120: WGT-thigh_fk_L
+    2300122: WGT-thigh_fk_R
+    2300124: WGT-thigh_hose_L
+    2300126: WGT-thigh_hose_R
+    2300128: WGT-thumb_01_L
+    2300130: WGT-thumb_01_R
+    2300132: WGT-thumb_02_L
+    2300134: WGT-thumb_02_R
+    2300136: WGT-thumb_03_L
+    2300138: WGT-thumb_03_R
+    2300140: WGT-thumb_L
+    2300142: WGT-thumb_R
+    2300144: WGT-toe_L
+    2300146: WGT-toe_R
+    2300148: WGT-torso
+    2300150: WGT-upper_arm_fk_L
+    2300152: WGT-upper_arm_fk_R
+    2300154: WGT-upper_arm_hose_L
+    2300156: WGT-upper_arm_hose_R
+    2300158: WGT-VIS-foot_ik_L
+    2300160: WGT-VIS-foot_ik_R
+    2300162: WGT-VIS-hand_ik_L
+    2300164: WGT-VIS-hand_ik_R
+    2300166: WGT-VIS-thigh_pole_ik_L
+    2300168: WGT-VIS-thigh_pole_ik_R
+    2300170: WGT-VIS-upper_arm_pole_ik_L
+    2300172: WGT-VIS-upper_arm_pole_ik_R
+    3300000: WGT-chest
+    3300002: WGT-elbow_hose_L
+    3300004: WGT-elbow_hose_R
+    3300006: WGT-elbow_target_ik_L
+    3300008: WGT-elbow_target_ik_R
+    3300010: WGT-f_index_01_L
+    3300012: WGT-f_index_01_R
+    3300014: WGT-f_index_02_L
+    3300016: WGT-f_index_02_R
+    3300018: WGT-f_index_03_L
+    3300020: WGT-f_index_03_R
+    3300022: WGT-f_index_L
+    3300024: WGT-f_index_R
+    3300026: WGT-f_middle_01_L
+    3300028: WGT-f_middle_01_R
+    3300030: WGT-f_middle_02_L
+    3300032: WGT-f_middle_02_R
+    3300034: WGT-f_middle_03_L
+    3300036: WGT-f_middle_03_R
+    3300038: WGT-f_middle_L
+    3300040: WGT-f_middle_R
+    3300042: WGT-f_ring_01_L
+    3300044: WGT-f_ring_01_R
+    3300046: WGT-f_ring_02_L
+    3300048: WGT-f_ring_02_R
+    3300050: WGT-f_ring_03_L
+    3300052: WGT-f_ring_03_R
+    3300054: WGT-f_ring_L
+    3300056: WGT-f_ring_R
+    3300058: WGT-foot_fk_L
+    3300060: WGT-foot_fk_R
+    3300062: WGT-foot_ik_L
+    3300064: WGT-foot_ik_R
+    3300066: WGT-foot_roll_ik_L
+    3300068: WGT-foot_roll_ik_R
+    3300070: WGT-forearm_fk_L
+    3300072: WGT-forearm_fk_R
+    3300074: WGT-forearm_hose_L
+    3300076: WGT-forearm_hose_R
+    3300078: WGT-hand_fk_L
+    3300080: WGT-hand_fk_R
+    3300082: WGT-hand_ik_L
+    3300084: WGT-hand_ik_R
+    3300086: WGT-head
+    3300088: WGT-hips
+    3300090: WGT-knee_hose_L
+    3300092: WGT-knee_hose_R
+    3300094: WGT-knee_target_ik_L
+    3300096: WGT-knee_target_ik_R
+    3300098: WGT-neck
+    3300100: WGT-palm_L
+    3300102: WGT-palm_R
+    3300104: WGT-root
+    3300106: WGT-shin_fk_L
+    3300108: WGT-shin_fk_R
+    3300110: WGT-shin_hose_L
+    3300112: WGT-shin_hose_R
+    3300114: WGT-shoulder_L
+    3300116: WGT-shoulder_R
+    3300118: WGT-spine
+    3300120: WGT-thigh_fk_L
+    3300122: WGT-thigh_fk_R
+    3300124: WGT-thigh_hose_L
+    3300126: WGT-thigh_hose_R
+    3300128: WGT-thumb_01_L
+    3300130: WGT-thumb_01_R
+    3300132: WGT-thumb_02_L
+    3300134: WGT-thumb_02_R
+    3300136: WGT-thumb_03_L
+    3300138: WGT-thumb_03_R
+    3300140: WGT-thumb_L
+    3300142: WGT-thumb_R
+    3300144: WGT-toe_L
+    3300146: WGT-toe_R
+    3300148: WGT-torso
+    3300150: WGT-upper_arm_fk_L
+    3300152: WGT-upper_arm_fk_R
+    3300154: WGT-upper_arm_hose_L
+    3300156: WGT-upper_arm_hose_R
+    3300158: WGT-VIS-foot_ik_L
+    3300160: WGT-VIS-foot_ik_R
+    3300162: WGT-VIS-hand_ik_L
+    3300164: WGT-VIS-hand_ik_R
+    3300166: WGT-VIS-thigh_pole_ik_L
+    3300168: WGT-VIS-thigh_pole_ik_R
+    3300170: WGT-VIS-upper_arm_pole_ik_L
+    3300172: WGT-VIS-upper_arm_pole_ik_R
+    4300012: crown
+    4300014: body
+    4300016: eyes
+    4300018: Staff
+    4300074: WGT-palm_R
+    4300076: WGT-palm_L
+    4300078: WGT-hand_ik_R
+    4300086: WGT-hand_fk_R
+    4300098: WGT-hand_ik_L
+    4300106: WGT-hand_fk_L
+    4300126: WGT-foot_roll_ik_R
+    4300130: WGT-foot_ik_R
+    4300138: WGT-foot_fk_R
+    4300150: WGT-foot_roll_ik_L
+    4300154: WGT-foot_ik_L
+    4300162: WGT-foot_fk_L
+    7400000: Default Take
+    7400002: metarigAction_005
+    7400004: PoseLib
+    7400006: Move
+    7400008: Death
+    7400010: Attack1
+    7400012: DmgTaken
+    7400014: Default Take0
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: body
+    13700002: crown
+    13700004: eyes
+    13700006: Staff
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 96
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: crown
+        weight: 1
+      - path: eyes
+        weight: 1
+      - path: metarig
+        weight: 1
+      - path: metarig/Bone_004
+        weight: 1
+      - path: metarig/Bone_004/foot_L_IK
+        weight: 1
+      - path: metarig/Bone_004/foot_R_IK
+        weight: 1
+      - path: metarig/Bone_004/hips_main
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone/Bone_003
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone/Bone_003/Bone_002
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone/Bone_003/Bone_002/Bone_001
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Back_Root
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Back_Root/Skirt_Back_Tip
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Root
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Root/Skirt_Root_002
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Root/Skirt_Root_002/Skirt_Root_001
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/neck
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/neck/head
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/neck/head/Jaw-Bone
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/f_index_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/f_index_01_L/f_index_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/f_index_01_L/f_index_02_L/f_index_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/thumb_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/thumb_01_L/thumb_02_L/thumb_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L/f_middle_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L/f_middle_01_L/f_middle_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L/f_middle_01_L/f_middle_02_L/f_middle_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L/f_ring_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/f_index_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/f_index_01_R/f_index_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/f_index_01_R/f_index_02_R/f_index_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/thumb_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/thumb_01_R/thumb_02_R/thumb_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R/f_middle_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R/f_middle_01_R/f_middle_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R/f_middle_01_R/f_middle_02_R/f_middle_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R/f_ring_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/foot_L/toe_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/heel_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/heel_L/heel_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/foot_R/toe_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/foot_R_001
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/heel_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/heel_R/heel_02_R
+        weight: 1
+      - path: metarig/Staff_Bone
+        weight: 1
+      - path: Staff
+        weight: 1
+      - path: WGT-chest
+        weight: 1
+      - path: WGT-elbow_hose_L
+        weight: 1
+      - path: WGT-elbow_hose_R
+        weight: 1
+      - path: WGT-elbow_target_ik_L
+        weight: 1
+      - path: WGT-elbow_target_ik_R
+        weight: 1
+      - path: WGT-f_index_01_L
+        weight: 1
+      - path: WGT-f_index_01_R
+        weight: 1
+      - path: WGT-f_index_02_L
+        weight: 1
+      - path: WGT-f_index_02_R
+        weight: 1
+      - path: WGT-f_index_03_L
+        weight: 1
+      - path: WGT-f_index_03_R
+        weight: 1
+      - path: WGT-f_index_L
+        weight: 1
+      - path: WGT-f_index_R
+        weight: 1
+      - path: WGT-f_middle_01_L
+        weight: 1
+      - path: WGT-f_middle_01_R
+        weight: 1
+      - path: WGT-f_middle_02_L
+        weight: 1
+      - path: WGT-f_middle_02_R
+        weight: 1
+      - path: WGT-f_middle_03_L
+        weight: 1
+      - path: WGT-f_middle_03_R
+        weight: 1
+      - path: WGT-f_middle_L
+        weight: 1
+      - path: WGT-f_middle_R
+        weight: 1
+      - path: WGT-f_ring_01_L
+        weight: 1
+      - path: WGT-f_ring_01_R
+        weight: 1
+      - path: WGT-f_ring_02_L
+        weight: 1
+      - path: WGT-f_ring_02_R
+        weight: 1
+      - path: WGT-f_ring_03_L
+        weight: 1
+      - path: WGT-f_ring_03_R
+        weight: 1
+      - path: WGT-f_ring_L
+        weight: 1
+      - path: WGT-f_ring_R
+        weight: 1
+      - path: WGT-foot_fk_L
+        weight: 1
+      - path: WGT-foot_fk_R
+        weight: 1
+      - path: WGT-foot_ik_L
+        weight: 1
+      - path: WGT-foot_ik_R
+        weight: 1
+      - path: WGT-foot_roll_ik_L
+        weight: 1
+      - path: WGT-foot_roll_ik_R
+        weight: 1
+      - path: WGT-forearm_fk_L
+        weight: 1
+      - path: WGT-forearm_fk_R
+        weight: 1
+      - path: WGT-forearm_hose_L
+        weight: 1
+      - path: WGT-forearm_hose_R
+        weight: 1
+      - path: WGT-hand_fk_L
+        weight: 1
+      - path: WGT-hand_fk_R
+        weight: 1
+      - path: WGT-hand_ik_L
+        weight: 1
+      - path: WGT-hand_ik_R
+        weight: 1
+      - path: WGT-head
+        weight: 1
+      - path: WGT-hips
+        weight: 1
+      - path: WGT-knee_hose_L
+        weight: 1
+      - path: WGT-knee_hose_R
+        weight: 1
+      - path: WGT-knee_target_ik_L
+        weight: 1
+      - path: WGT-knee_target_ik_R
+        weight: 1
+      - path: WGT-neck
+        weight: 1
+      - path: WGT-palm_L
+        weight: 1
+      - path: WGT-palm_R
+        weight: 1
+      - path: WGT-root
+        weight: 1
+      - path: WGT-shin_fk_L
+        weight: 1
+      - path: WGT-shin_fk_R
+        weight: 1
+      - path: WGT-shin_hose_L
+        weight: 1
+      - path: WGT-shin_hose_R
+        weight: 1
+      - path: WGT-shoulder_L
+        weight: 1
+      - path: WGT-shoulder_R
+        weight: 1
+      - path: WGT-spine
+        weight: 1
+      - path: WGT-thigh_fk_L
+        weight: 1
+      - path: WGT-thigh_fk_R
+        weight: 1
+      - path: WGT-thigh_hose_L
+        weight: 1
+      - path: WGT-thigh_hose_R
+        weight: 1
+      - path: WGT-thumb_01_L
+        weight: 1
+      - path: WGT-thumb_01_R
+        weight: 1
+      - path: WGT-thumb_02_L
+        weight: 1
+      - path: WGT-thumb_02_R
+        weight: 1
+      - path: WGT-thumb_03_L
+        weight: 1
+      - path: WGT-thumb_03_R
+        weight: 1
+      - path: WGT-thumb_L
+        weight: 1
+      - path: WGT-thumb_R
+        weight: 1
+      - path: WGT-toe_L
+        weight: 1
+      - path: WGT-toe_R
+        weight: 1
+      - path: WGT-torso
+        weight: 1
+      - path: WGT-upper_arm_fk_L
+        weight: 1
+      - path: WGT-upper_arm_fk_R
+        weight: 1
+      - path: WGT-upper_arm_hose_L
+        weight: 1
+      - path: WGT-upper_arm_hose_R
+        weight: 1
+      - path: WGT-VIS-foot_ik_L
+        weight: 1
+      - path: WGT-VIS-foot_ik_R
+        weight: 1
+      - path: WGT-VIS-hand_ik_L
+        weight: 1
+      - path: WGT-VIS-hand_ik_R
+        weight: 1
+      - path: WGT-VIS-thigh_pole_ik_L
+        weight: 1
+      - path: WGT-VIS-thigh_pole_ik_R
+        weight: 1
+      - path: WGT-VIS-upper_arm_pole_ik_L
+        weight: 1
+      - path: WGT-VIS-upper_arm_pole_ik_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: metarigAction_005
+      takeName: metarigAction_005
+      firstFrame: -1
+      lastFrame: 554
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: crown
+        weight: 1
+      - path: eyes
+        weight: 1
+      - path: metarig
+        weight: 1
+      - path: metarig/Bone_004
+        weight: 1
+      - path: metarig/Bone_004/foot_L_IK
+        weight: 1
+      - path: metarig/Bone_004/foot_R_IK
+        weight: 1
+      - path: metarig/Bone_004/hips_main
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone/Bone_003
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone/Bone_003/Bone_002
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone/Bone_003/Bone_002/Bone_001
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Back_Root
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Back_Root/Skirt_Back_Tip
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Root
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Root/Skirt_Root_002
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Root/Skirt_Root_002/Skirt_Root_001
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/neck
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/neck/head
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/neck/head/Jaw-Bone
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/f_index_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/f_index_01_L/f_index_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/f_index_01_L/f_index_02_L/f_index_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/thumb_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/thumb_01_L/thumb_02_L/thumb_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L/f_middle_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L/f_middle_01_L/f_middle_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L/f_middle_01_L/f_middle_02_L/f_middle_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L/f_ring_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/f_index_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/f_index_01_R/f_index_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/f_index_01_R/f_index_02_R/f_index_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/thumb_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/thumb_01_R/thumb_02_R/thumb_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R/f_middle_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R/f_middle_01_R/f_middle_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R/f_middle_01_R/f_middle_02_R/f_middle_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R/f_ring_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/foot_L/toe_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/heel_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/heel_L/heel_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/foot_R/toe_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/foot_R_001
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/heel_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/heel_R/heel_02_R
+        weight: 1
+      - path: metarig/Staff_Bone
+        weight: 1
+      - path: Staff
+        weight: 1
+      - path: WGT-chest
+        weight: 1
+      - path: WGT-elbow_hose_L
+        weight: 1
+      - path: WGT-elbow_hose_R
+        weight: 1
+      - path: WGT-elbow_target_ik_L
+        weight: 1
+      - path: WGT-elbow_target_ik_R
+        weight: 1
+      - path: WGT-f_index_01_L
+        weight: 1
+      - path: WGT-f_index_01_R
+        weight: 1
+      - path: WGT-f_index_02_L
+        weight: 1
+      - path: WGT-f_index_02_R
+        weight: 1
+      - path: WGT-f_index_03_L
+        weight: 1
+      - path: WGT-f_index_03_R
+        weight: 1
+      - path: WGT-f_index_L
+        weight: 1
+      - path: WGT-f_index_R
+        weight: 1
+      - path: WGT-f_middle_01_L
+        weight: 1
+      - path: WGT-f_middle_01_R
+        weight: 1
+      - path: WGT-f_middle_02_L
+        weight: 1
+      - path: WGT-f_middle_02_R
+        weight: 1
+      - path: WGT-f_middle_03_L
+        weight: 1
+      - path: WGT-f_middle_03_R
+        weight: 1
+      - path: WGT-f_middle_L
+        weight: 1
+      - path: WGT-f_middle_R
+        weight: 1
+      - path: WGT-f_ring_01_L
+        weight: 1
+      - path: WGT-f_ring_01_R
+        weight: 1
+      - path: WGT-f_ring_02_L
+        weight: 1
+      - path: WGT-f_ring_02_R
+        weight: 1
+      - path: WGT-f_ring_03_L
+        weight: 1
+      - path: WGT-f_ring_03_R
+        weight: 1
+      - path: WGT-f_ring_L
+        weight: 1
+      - path: WGT-f_ring_R
+        weight: 1
+      - path: WGT-foot_fk_L
+        weight: 1
+      - path: WGT-foot_fk_R
+        weight: 1
+      - path: WGT-foot_ik_L
+        weight: 1
+      - path: WGT-foot_ik_R
+        weight: 1
+      - path: WGT-foot_roll_ik_L
+        weight: 1
+      - path: WGT-foot_roll_ik_R
+        weight: 1
+      - path: WGT-forearm_fk_L
+        weight: 1
+      - path: WGT-forearm_fk_R
+        weight: 1
+      - path: WGT-forearm_hose_L
+        weight: 1
+      - path: WGT-forearm_hose_R
+        weight: 1
+      - path: WGT-hand_fk_L
+        weight: 1
+      - path: WGT-hand_fk_R
+        weight: 1
+      - path: WGT-hand_ik_L
+        weight: 1
+      - path: WGT-hand_ik_R
+        weight: 1
+      - path: WGT-head
+        weight: 1
+      - path: WGT-hips
+        weight: 1
+      - path: WGT-knee_hose_L
+        weight: 1
+      - path: WGT-knee_hose_R
+        weight: 1
+      - path: WGT-knee_target_ik_L
+        weight: 1
+      - path: WGT-knee_target_ik_R
+        weight: 1
+      - path: WGT-neck
+        weight: 1
+      - path: WGT-palm_L
+        weight: 1
+      - path: WGT-palm_R
+        weight: 1
+      - path: WGT-root
+        weight: 1
+      - path: WGT-shin_fk_L
+        weight: 1
+      - path: WGT-shin_fk_R
+        weight: 1
+      - path: WGT-shin_hose_L
+        weight: 1
+      - path: WGT-shin_hose_R
+        weight: 1
+      - path: WGT-shoulder_L
+        weight: 1
+      - path: WGT-shoulder_R
+        weight: 1
+      - path: WGT-spine
+        weight: 1
+      - path: WGT-thigh_fk_L
+        weight: 1
+      - path: WGT-thigh_fk_R
+        weight: 1
+      - path: WGT-thigh_hose_L
+        weight: 1
+      - path: WGT-thigh_hose_R
+        weight: 1
+      - path: WGT-thumb_01_L
+        weight: 1
+      - path: WGT-thumb_01_R
+        weight: 1
+      - path: WGT-thumb_02_L
+        weight: 1
+      - path: WGT-thumb_02_R
+        weight: 1
+      - path: WGT-thumb_03_L
+        weight: 1
+      - path: WGT-thumb_03_R
+        weight: 1
+      - path: WGT-thumb_L
+        weight: 1
+      - path: WGT-thumb_R
+        weight: 1
+      - path: WGT-toe_L
+        weight: 1
+      - path: WGT-toe_R
+        weight: 1
+      - path: WGT-torso
+        weight: 1
+      - path: WGT-upper_arm_fk_L
+        weight: 1
+      - path: WGT-upper_arm_fk_R
+        weight: 1
+      - path: WGT-upper_arm_hose_L
+        weight: 1
+      - path: WGT-upper_arm_hose_R
+        weight: 1
+      - path: WGT-VIS-foot_ik_L
+        weight: 1
+      - path: WGT-VIS-foot_ik_R
+        weight: 1
+      - path: WGT-VIS-hand_ik_L
+        weight: 1
+      - path: WGT-VIS-hand_ik_R
+        weight: 1
+      - path: WGT-VIS-thigh_pole_ik_L
+        weight: 1
+      - path: WGT-VIS-thigh_pole_ik_R
+        weight: 1
+      - path: WGT-VIS-upper_arm_pole_ik_L
+        weight: 1
+      - path: WGT-VIS-upper_arm_pole_ik_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: PoseLib
+      takeName: PoseLib
+      firstFrame: 0
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: crown
+        weight: 1
+      - path: eyes
+        weight: 1
+      - path: metarig
+        weight: 1
+      - path: metarig/Bone_004
+        weight: 1
+      - path: metarig/Bone_004/foot_L_IK
+        weight: 1
+      - path: metarig/Bone_004/foot_R_IK
+        weight: 1
+      - path: metarig/Bone_004/hips_main
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone/Bone_003
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone/Bone_003/Bone_002
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone/Bone_003/Bone_002/Bone_001
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Back_Root
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Back_Root/Skirt_Back_Tip
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Root
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Root/Skirt_Root_002
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Root/Skirt_Root_002/Skirt_Root_001
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/neck
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/neck/head
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/neck/head/Jaw-Bone
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/f_index_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/f_index_01_L/f_index_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/f_index_01_L/f_index_02_L/f_index_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/thumb_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/thumb_01_L/thumb_02_L/thumb_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L/f_middle_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L/f_middle_01_L/f_middle_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L/f_middle_01_L/f_middle_02_L/f_middle_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L/f_ring_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/f_index_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/f_index_01_R/f_index_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/f_index_01_R/f_index_02_R/f_index_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/thumb_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/thumb_01_R/thumb_02_R/thumb_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R/f_middle_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R/f_middle_01_R/f_middle_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R/f_middle_01_R/f_middle_02_R/f_middle_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R/f_ring_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/foot_L/toe_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/heel_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/heel_L/heel_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/foot_R/toe_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/foot_R_001
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/heel_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/heel_R/heel_02_R
+        weight: 1
+      - path: metarig/Staff_Bone
+        weight: 1
+      - path: Staff
+        weight: 1
+      - path: WGT-chest
+        weight: 1
+      - path: WGT-elbow_hose_L
+        weight: 1
+      - path: WGT-elbow_hose_R
+        weight: 1
+      - path: WGT-elbow_target_ik_L
+        weight: 1
+      - path: WGT-elbow_target_ik_R
+        weight: 1
+      - path: WGT-f_index_01_L
+        weight: 1
+      - path: WGT-f_index_01_R
+        weight: 1
+      - path: WGT-f_index_02_L
+        weight: 1
+      - path: WGT-f_index_02_R
+        weight: 1
+      - path: WGT-f_index_03_L
+        weight: 1
+      - path: WGT-f_index_03_R
+        weight: 1
+      - path: WGT-f_index_L
+        weight: 1
+      - path: WGT-f_index_R
+        weight: 1
+      - path: WGT-f_middle_01_L
+        weight: 1
+      - path: WGT-f_middle_01_R
+        weight: 1
+      - path: WGT-f_middle_02_L
+        weight: 1
+      - path: WGT-f_middle_02_R
+        weight: 1
+      - path: WGT-f_middle_03_L
+        weight: 1
+      - path: WGT-f_middle_03_R
+        weight: 1
+      - path: WGT-f_middle_L
+        weight: 1
+      - path: WGT-f_middle_R
+        weight: 1
+      - path: WGT-f_ring_01_L
+        weight: 1
+      - path: WGT-f_ring_01_R
+        weight: 1
+      - path: WGT-f_ring_02_L
+        weight: 1
+      - path: WGT-f_ring_02_R
+        weight: 1
+      - path: WGT-f_ring_03_L
+        weight: 1
+      - path: WGT-f_ring_03_R
+        weight: 1
+      - path: WGT-f_ring_L
+        weight: 1
+      - path: WGT-f_ring_R
+        weight: 1
+      - path: WGT-foot_fk_L
+        weight: 1
+      - path: WGT-foot_fk_R
+        weight: 1
+      - path: WGT-foot_ik_L
+        weight: 1
+      - path: WGT-foot_ik_R
+        weight: 1
+      - path: WGT-foot_roll_ik_L
+        weight: 1
+      - path: WGT-foot_roll_ik_R
+        weight: 1
+      - path: WGT-forearm_fk_L
+        weight: 1
+      - path: WGT-forearm_fk_R
+        weight: 1
+      - path: WGT-forearm_hose_L
+        weight: 1
+      - path: WGT-forearm_hose_R
+        weight: 1
+      - path: WGT-hand_fk_L
+        weight: 1
+      - path: WGT-hand_fk_R
+        weight: 1
+      - path: WGT-hand_ik_L
+        weight: 1
+      - path: WGT-hand_ik_R
+        weight: 1
+      - path: WGT-head
+        weight: 1
+      - path: WGT-hips
+        weight: 1
+      - path: WGT-knee_hose_L
+        weight: 1
+      - path: WGT-knee_hose_R
+        weight: 1
+      - path: WGT-knee_target_ik_L
+        weight: 1
+      - path: WGT-knee_target_ik_R
+        weight: 1
+      - path: WGT-neck
+        weight: 1
+      - path: WGT-palm_L
+        weight: 1
+      - path: WGT-palm_R
+        weight: 1
+      - path: WGT-root
+        weight: 1
+      - path: WGT-shin_fk_L
+        weight: 1
+      - path: WGT-shin_fk_R
+        weight: 1
+      - path: WGT-shin_hose_L
+        weight: 1
+      - path: WGT-shin_hose_R
+        weight: 1
+      - path: WGT-shoulder_L
+        weight: 1
+      - path: WGT-shoulder_R
+        weight: 1
+      - path: WGT-spine
+        weight: 1
+      - path: WGT-thigh_fk_L
+        weight: 1
+      - path: WGT-thigh_fk_R
+        weight: 1
+      - path: WGT-thigh_hose_L
+        weight: 1
+      - path: WGT-thigh_hose_R
+        weight: 1
+      - path: WGT-thumb_01_L
+        weight: 1
+      - path: WGT-thumb_01_R
+        weight: 1
+      - path: WGT-thumb_02_L
+        weight: 1
+      - path: WGT-thumb_02_R
+        weight: 1
+      - path: WGT-thumb_03_L
+        weight: 1
+      - path: WGT-thumb_03_R
+        weight: 1
+      - path: WGT-thumb_L
+        weight: 1
+      - path: WGT-thumb_R
+        weight: 1
+      - path: WGT-toe_L
+        weight: 1
+      - path: WGT-toe_R
+        weight: 1
+      - path: WGT-torso
+        weight: 1
+      - path: WGT-upper_arm_fk_L
+        weight: 1
+      - path: WGT-upper_arm_fk_R
+        weight: 1
+      - path: WGT-upper_arm_hose_L
+        weight: 1
+      - path: WGT-upper_arm_hose_R
+        weight: 1
+      - path: WGT-VIS-foot_ik_L
+        weight: 1
+      - path: WGT-VIS-foot_ik_R
+        weight: 1
+      - path: WGT-VIS-hand_ik_L
+        weight: 1
+      - path: WGT-VIS-hand_ik_R
+        weight: 1
+      - path: WGT-VIS-thigh_pole_ik_L
+        weight: 1
+      - path: WGT-VIS-thigh_pole_ik_R
+        weight: 1
+      - path: WGT-VIS-upper_arm_pole_ik_L
+        weight: 1
+      - path: WGT-VIS-upper_arm_pole_ik_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Move
+      takeName: Default Take
+      firstFrame: 5
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: crown
+        weight: 1
+      - path: eyes
+        weight: 1
+      - path: metarig
+        weight: 1
+      - path: metarig/Bone_004
+        weight: 1
+      - path: metarig/Bone_004/foot_L_IK
+        weight: 1
+      - path: metarig/Bone_004/foot_R_IK
+        weight: 1
+      - path: metarig/Bone_004/hips_main
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone/Bone_003
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone/Bone_003/Bone_002
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone/Bone_003/Bone_002/Bone_001
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Back_Root
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Back_Root/Skirt_Back_Tip
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Root
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Root/Skirt_Root_002
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Root/Skirt_Root_002/Skirt_Root_001
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/neck
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/neck/head
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/neck/head/Jaw-Bone
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/f_index_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/f_index_01_L/f_index_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/f_index_01_L/f_index_02_L/f_index_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/thumb_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/thumb_01_L/thumb_02_L/thumb_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L/f_middle_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L/f_middle_01_L/f_middle_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L/f_middle_01_L/f_middle_02_L/f_middle_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L/f_ring_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/f_index_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/f_index_01_R/f_index_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/f_index_01_R/f_index_02_R/f_index_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/thumb_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/thumb_01_R/thumb_02_R/thumb_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R/f_middle_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R/f_middle_01_R/f_middle_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R/f_middle_01_R/f_middle_02_R/f_middle_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R/f_ring_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/foot_L/toe_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/heel_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/heel_L/heel_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/foot_R/toe_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/foot_R_001
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/heel_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/heel_R/heel_02_R
+        weight: 1
+      - path: metarig/Staff_Bone
+        weight: 1
+      - path: Staff
+        weight: 1
+      - path: WGT-chest
+        weight: 1
+      - path: WGT-elbow_hose_L
+        weight: 1
+      - path: WGT-elbow_hose_R
+        weight: 1
+      - path: WGT-elbow_target_ik_L
+        weight: 1
+      - path: WGT-elbow_target_ik_R
+        weight: 1
+      - path: WGT-f_index_01_L
+        weight: 1
+      - path: WGT-f_index_01_R
+        weight: 1
+      - path: WGT-f_index_02_L
+        weight: 1
+      - path: WGT-f_index_02_R
+        weight: 1
+      - path: WGT-f_index_03_L
+        weight: 1
+      - path: WGT-f_index_03_R
+        weight: 1
+      - path: WGT-f_index_L
+        weight: 1
+      - path: WGT-f_index_R
+        weight: 1
+      - path: WGT-f_middle_01_L
+        weight: 1
+      - path: WGT-f_middle_01_R
+        weight: 1
+      - path: WGT-f_middle_02_L
+        weight: 1
+      - path: WGT-f_middle_02_R
+        weight: 1
+      - path: WGT-f_middle_03_L
+        weight: 1
+      - path: WGT-f_middle_03_R
+        weight: 1
+      - path: WGT-f_middle_L
+        weight: 1
+      - path: WGT-f_middle_R
+        weight: 1
+      - path: WGT-f_ring_01_L
+        weight: 1
+      - path: WGT-f_ring_01_R
+        weight: 1
+      - path: WGT-f_ring_02_L
+        weight: 1
+      - path: WGT-f_ring_02_R
+        weight: 1
+      - path: WGT-f_ring_03_L
+        weight: 1
+      - path: WGT-f_ring_03_R
+        weight: 1
+      - path: WGT-f_ring_L
+        weight: 1
+      - path: WGT-f_ring_R
+        weight: 1
+      - path: WGT-foot_fk_L
+        weight: 1
+      - path: WGT-foot_fk_R
+        weight: 1
+      - path: WGT-foot_ik_L
+        weight: 1
+      - path: WGT-foot_ik_R
+        weight: 1
+      - path: WGT-foot_roll_ik_L
+        weight: 1
+      - path: WGT-foot_roll_ik_R
+        weight: 1
+      - path: WGT-forearm_fk_L
+        weight: 1
+      - path: WGT-forearm_fk_R
+        weight: 1
+      - path: WGT-forearm_hose_L
+        weight: 1
+      - path: WGT-forearm_hose_R
+        weight: 1
+      - path: WGT-hand_fk_L
+        weight: 1
+      - path: WGT-hand_fk_R
+        weight: 1
+      - path: WGT-hand_ik_L
+        weight: 1
+      - path: WGT-hand_ik_R
+        weight: 1
+      - path: WGT-head
+        weight: 1
+      - path: WGT-hips
+        weight: 1
+      - path: WGT-knee_hose_L
+        weight: 1
+      - path: WGT-knee_hose_R
+        weight: 1
+      - path: WGT-knee_target_ik_L
+        weight: 1
+      - path: WGT-knee_target_ik_R
+        weight: 1
+      - path: WGT-neck
+        weight: 1
+      - path: WGT-palm_L
+        weight: 1
+      - path: WGT-palm_R
+        weight: 1
+      - path: WGT-root
+        weight: 1
+      - path: WGT-shin_fk_L
+        weight: 1
+      - path: WGT-shin_fk_R
+        weight: 1
+      - path: WGT-shin_hose_L
+        weight: 1
+      - path: WGT-shin_hose_R
+        weight: 1
+      - path: WGT-shoulder_L
+        weight: 1
+      - path: WGT-shoulder_R
+        weight: 1
+      - path: WGT-spine
+        weight: 1
+      - path: WGT-thigh_fk_L
+        weight: 1
+      - path: WGT-thigh_fk_R
+        weight: 1
+      - path: WGT-thigh_hose_L
+        weight: 1
+      - path: WGT-thigh_hose_R
+        weight: 1
+      - path: WGT-thumb_01_L
+        weight: 1
+      - path: WGT-thumb_01_R
+        weight: 1
+      - path: WGT-thumb_02_L
+        weight: 1
+      - path: WGT-thumb_02_R
+        weight: 1
+      - path: WGT-thumb_03_L
+        weight: 1
+      - path: WGT-thumb_03_R
+        weight: 1
+      - path: WGT-thumb_L
+        weight: 1
+      - path: WGT-thumb_R
+        weight: 1
+      - path: WGT-toe_L
+        weight: 1
+      - path: WGT-toe_R
+        weight: 1
+      - path: WGT-torso
+        weight: 1
+      - path: WGT-upper_arm_fk_L
+        weight: 1
+      - path: WGT-upper_arm_fk_R
+        weight: 1
+      - path: WGT-upper_arm_hose_L
+        weight: 1
+      - path: WGT-upper_arm_hose_R
+        weight: 1
+      - path: WGT-VIS-foot_ik_L
+        weight: 1
+      - path: WGT-VIS-foot_ik_R
+        weight: 1
+      - path: WGT-VIS-hand_ik_L
+        weight: 1
+      - path: WGT-VIS-hand_ik_R
+        weight: 1
+      - path: WGT-VIS-thigh_pole_ik_L
+        weight: 1
+      - path: WGT-VIS-thigh_pole_ik_R
+        weight: 1
+      - path: WGT-VIS-upper_arm_pole_ik_L
+        weight: 1
+      - path: WGT-VIS-upper_arm_pole_ik_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death
+      takeName: Default Take
+      firstFrame: 100
+      lastFrame: 185
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: crown
+        weight: 1
+      - path: eyes
+        weight: 1
+      - path: metarig
+        weight: 1
+      - path: metarig/Bone_004
+        weight: 1
+      - path: metarig/Bone_004/foot_L_IK
+        weight: 1
+      - path: metarig/Bone_004/foot_R_IK
+        weight: 1
+      - path: metarig/Bone_004/hips_main
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone/Bone_003
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone/Bone_003/Bone_002
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone/Bone_003/Bone_002/Bone_001
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Back_Root
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Back_Root/Skirt_Back_Tip
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Root
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Root/Skirt_Root_002
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Root/Skirt_Root_002/Skirt_Root_001
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/neck
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/neck/head
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/neck/head/Jaw-Bone
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/f_index_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/f_index_01_L/f_index_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/f_index_01_L/f_index_02_L/f_index_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/thumb_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/thumb_01_L/thumb_02_L/thumb_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L/f_middle_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L/f_middle_01_L/f_middle_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L/f_middle_01_L/f_middle_02_L/f_middle_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L/f_ring_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/f_index_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/f_index_01_R/f_index_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/f_index_01_R/f_index_02_R/f_index_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/thumb_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/thumb_01_R/thumb_02_R/thumb_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R/f_middle_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R/f_middle_01_R/f_middle_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R/f_middle_01_R/f_middle_02_R/f_middle_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R/f_ring_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/foot_L/toe_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/heel_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/heel_L/heel_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/foot_R/toe_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/foot_R_001
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/heel_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/heel_R/heel_02_R
+        weight: 1
+      - path: metarig/Staff_Bone
+        weight: 1
+      - path: Staff
+        weight: 1
+      - path: WGT-chest
+        weight: 1
+      - path: WGT-elbow_hose_L
+        weight: 1
+      - path: WGT-elbow_hose_R
+        weight: 1
+      - path: WGT-elbow_target_ik_L
+        weight: 1
+      - path: WGT-elbow_target_ik_R
+        weight: 1
+      - path: WGT-f_index_01_L
+        weight: 1
+      - path: WGT-f_index_01_R
+        weight: 1
+      - path: WGT-f_index_02_L
+        weight: 1
+      - path: WGT-f_index_02_R
+        weight: 1
+      - path: WGT-f_index_03_L
+        weight: 1
+      - path: WGT-f_index_03_R
+        weight: 1
+      - path: WGT-f_index_L
+        weight: 1
+      - path: WGT-f_index_R
+        weight: 1
+      - path: WGT-f_middle_01_L
+        weight: 1
+      - path: WGT-f_middle_01_R
+        weight: 1
+      - path: WGT-f_middle_02_L
+        weight: 1
+      - path: WGT-f_middle_02_R
+        weight: 1
+      - path: WGT-f_middle_03_L
+        weight: 1
+      - path: WGT-f_middle_03_R
+        weight: 1
+      - path: WGT-f_middle_L
+        weight: 1
+      - path: WGT-f_middle_R
+        weight: 1
+      - path: WGT-f_ring_01_L
+        weight: 1
+      - path: WGT-f_ring_01_R
+        weight: 1
+      - path: WGT-f_ring_02_L
+        weight: 1
+      - path: WGT-f_ring_02_R
+        weight: 1
+      - path: WGT-f_ring_03_L
+        weight: 1
+      - path: WGT-f_ring_03_R
+        weight: 1
+      - path: WGT-f_ring_L
+        weight: 1
+      - path: WGT-f_ring_R
+        weight: 1
+      - path: WGT-foot_fk_L
+        weight: 1
+      - path: WGT-foot_fk_R
+        weight: 1
+      - path: WGT-foot_ik_L
+        weight: 1
+      - path: WGT-foot_ik_R
+        weight: 1
+      - path: WGT-foot_roll_ik_L
+        weight: 1
+      - path: WGT-foot_roll_ik_R
+        weight: 1
+      - path: WGT-forearm_fk_L
+        weight: 1
+      - path: WGT-forearm_fk_R
+        weight: 1
+      - path: WGT-forearm_hose_L
+        weight: 1
+      - path: WGT-forearm_hose_R
+        weight: 1
+      - path: WGT-hand_fk_L
+        weight: 1
+      - path: WGT-hand_fk_R
+        weight: 1
+      - path: WGT-hand_ik_L
+        weight: 1
+      - path: WGT-hand_ik_R
+        weight: 1
+      - path: WGT-head
+        weight: 1
+      - path: WGT-hips
+        weight: 1
+      - path: WGT-knee_hose_L
+        weight: 1
+      - path: WGT-knee_hose_R
+        weight: 1
+      - path: WGT-knee_target_ik_L
+        weight: 1
+      - path: WGT-knee_target_ik_R
+        weight: 1
+      - path: WGT-neck
+        weight: 1
+      - path: WGT-palm_L
+        weight: 1
+      - path: WGT-palm_R
+        weight: 1
+      - path: WGT-root
+        weight: 1
+      - path: WGT-shin_fk_L
+        weight: 1
+      - path: WGT-shin_fk_R
+        weight: 1
+      - path: WGT-shin_hose_L
+        weight: 1
+      - path: WGT-shin_hose_R
+        weight: 1
+      - path: WGT-shoulder_L
+        weight: 1
+      - path: WGT-shoulder_R
+        weight: 1
+      - path: WGT-spine
+        weight: 1
+      - path: WGT-thigh_fk_L
+        weight: 1
+      - path: WGT-thigh_fk_R
+        weight: 1
+      - path: WGT-thigh_hose_L
+        weight: 1
+      - path: WGT-thigh_hose_R
+        weight: 1
+      - path: WGT-thumb_01_L
+        weight: 1
+      - path: WGT-thumb_01_R
+        weight: 1
+      - path: WGT-thumb_02_L
+        weight: 1
+      - path: WGT-thumb_02_R
+        weight: 1
+      - path: WGT-thumb_03_L
+        weight: 1
+      - path: WGT-thumb_03_R
+        weight: 1
+      - path: WGT-thumb_L
+        weight: 1
+      - path: WGT-thumb_R
+        weight: 1
+      - path: WGT-toe_L
+        weight: 1
+      - path: WGT-toe_R
+        weight: 1
+      - path: WGT-torso
+        weight: 1
+      - path: WGT-upper_arm_fk_L
+        weight: 1
+      - path: WGT-upper_arm_fk_R
+        weight: 1
+      - path: WGT-upper_arm_hose_L
+        weight: 1
+      - path: WGT-upper_arm_hose_R
+        weight: 1
+      - path: WGT-VIS-foot_ik_L
+        weight: 1
+      - path: WGT-VIS-foot_ik_R
+        weight: 1
+      - path: WGT-VIS-hand_ik_L
+        weight: 1
+      - path: WGT-VIS-hand_ik_R
+        weight: 1
+      - path: WGT-VIS-thigh_pole_ik_L
+        weight: 1
+      - path: WGT-VIS-thigh_pole_ik_R
+        weight: 1
+      - path: WGT-VIS-upper_arm_pole_ik_L
+        weight: 1
+      - path: WGT-VIS-upper_arm_pole_ik_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack1
+      takeName: Default Take
+      firstFrame: 190
+      lastFrame: 280
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: crown
+        weight: 1
+      - path: eyes
+        weight: 1
+      - path: metarig
+        weight: 1
+      - path: metarig/Bone_004
+        weight: 1
+      - path: metarig/Bone_004/foot_L_IK
+        weight: 1
+      - path: metarig/Bone_004/foot_R_IK
+        weight: 1
+      - path: metarig/Bone_004/hips_main
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone/Bone_003
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone/Bone_003/Bone_002
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone/Bone_003/Bone_002/Bone_001
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Back_Root
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Back_Root/Skirt_Back_Tip
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Root
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Root/Skirt_Root_002
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Root/Skirt_Root_002/Skirt_Root_001
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/neck
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/neck/head
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/neck/head/Jaw-Bone
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/f_index_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/f_index_01_L/f_index_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/f_index_01_L/f_index_02_L/f_index_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/thumb_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/thumb_01_L/thumb_02_L/thumb_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L/f_middle_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L/f_middle_01_L/f_middle_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L/f_middle_01_L/f_middle_02_L/f_middle_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L/f_ring_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/f_index_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/f_index_01_R/f_index_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/f_index_01_R/f_index_02_R/f_index_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/thumb_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/thumb_01_R/thumb_02_R/thumb_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R/f_middle_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R/f_middle_01_R/f_middle_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R/f_middle_01_R/f_middle_02_R/f_middle_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R/f_ring_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/foot_L/toe_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/heel_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/heel_L/heel_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/foot_R/toe_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/foot_R_001
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/heel_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/heel_R/heel_02_R
+        weight: 1
+      - path: metarig/Staff_Bone
+        weight: 1
+      - path: Staff
+        weight: 1
+      - path: WGT-chest
+        weight: 1
+      - path: WGT-elbow_hose_L
+        weight: 1
+      - path: WGT-elbow_hose_R
+        weight: 1
+      - path: WGT-elbow_target_ik_L
+        weight: 1
+      - path: WGT-elbow_target_ik_R
+        weight: 1
+      - path: WGT-f_index_01_L
+        weight: 1
+      - path: WGT-f_index_01_R
+        weight: 1
+      - path: WGT-f_index_02_L
+        weight: 1
+      - path: WGT-f_index_02_R
+        weight: 1
+      - path: WGT-f_index_03_L
+        weight: 1
+      - path: WGT-f_index_03_R
+        weight: 1
+      - path: WGT-f_index_L
+        weight: 1
+      - path: WGT-f_index_R
+        weight: 1
+      - path: WGT-f_middle_01_L
+        weight: 1
+      - path: WGT-f_middle_01_R
+        weight: 1
+      - path: WGT-f_middle_02_L
+        weight: 1
+      - path: WGT-f_middle_02_R
+        weight: 1
+      - path: WGT-f_middle_03_L
+        weight: 1
+      - path: WGT-f_middle_03_R
+        weight: 1
+      - path: WGT-f_middle_L
+        weight: 1
+      - path: WGT-f_middle_R
+        weight: 1
+      - path: WGT-f_ring_01_L
+        weight: 1
+      - path: WGT-f_ring_01_R
+        weight: 1
+      - path: WGT-f_ring_02_L
+        weight: 1
+      - path: WGT-f_ring_02_R
+        weight: 1
+      - path: WGT-f_ring_03_L
+        weight: 1
+      - path: WGT-f_ring_03_R
+        weight: 1
+      - path: WGT-f_ring_L
+        weight: 1
+      - path: WGT-f_ring_R
+        weight: 1
+      - path: WGT-foot_fk_L
+        weight: 1
+      - path: WGT-foot_fk_R
+        weight: 1
+      - path: WGT-foot_ik_L
+        weight: 1
+      - path: WGT-foot_ik_R
+        weight: 1
+      - path: WGT-foot_roll_ik_L
+        weight: 1
+      - path: WGT-foot_roll_ik_R
+        weight: 1
+      - path: WGT-forearm_fk_L
+        weight: 1
+      - path: WGT-forearm_fk_R
+        weight: 1
+      - path: WGT-forearm_hose_L
+        weight: 1
+      - path: WGT-forearm_hose_R
+        weight: 1
+      - path: WGT-hand_fk_L
+        weight: 1
+      - path: WGT-hand_fk_R
+        weight: 1
+      - path: WGT-hand_ik_L
+        weight: 1
+      - path: WGT-hand_ik_R
+        weight: 1
+      - path: WGT-head
+        weight: 1
+      - path: WGT-hips
+        weight: 1
+      - path: WGT-knee_hose_L
+        weight: 1
+      - path: WGT-knee_hose_R
+        weight: 1
+      - path: WGT-knee_target_ik_L
+        weight: 1
+      - path: WGT-knee_target_ik_R
+        weight: 1
+      - path: WGT-neck
+        weight: 1
+      - path: WGT-palm_L
+        weight: 1
+      - path: WGT-palm_R
+        weight: 1
+      - path: WGT-root
+        weight: 1
+      - path: WGT-shin_fk_L
+        weight: 1
+      - path: WGT-shin_fk_R
+        weight: 1
+      - path: WGT-shin_hose_L
+        weight: 1
+      - path: WGT-shin_hose_R
+        weight: 1
+      - path: WGT-shoulder_L
+        weight: 1
+      - path: WGT-shoulder_R
+        weight: 1
+      - path: WGT-spine
+        weight: 1
+      - path: WGT-thigh_fk_L
+        weight: 1
+      - path: WGT-thigh_fk_R
+        weight: 1
+      - path: WGT-thigh_hose_L
+        weight: 1
+      - path: WGT-thigh_hose_R
+        weight: 1
+      - path: WGT-thumb_01_L
+        weight: 1
+      - path: WGT-thumb_01_R
+        weight: 1
+      - path: WGT-thumb_02_L
+        weight: 1
+      - path: WGT-thumb_02_R
+        weight: 1
+      - path: WGT-thumb_03_L
+        weight: 1
+      - path: WGT-thumb_03_R
+        weight: 1
+      - path: WGT-thumb_L
+        weight: 1
+      - path: WGT-thumb_R
+        weight: 1
+      - path: WGT-toe_L
+        weight: 1
+      - path: WGT-toe_R
+        weight: 1
+      - path: WGT-torso
+        weight: 1
+      - path: WGT-upper_arm_fk_L
+        weight: 1
+      - path: WGT-upper_arm_fk_R
+        weight: 1
+      - path: WGT-upper_arm_hose_L
+        weight: 1
+      - path: WGT-upper_arm_hose_R
+        weight: 1
+      - path: WGT-VIS-foot_ik_L
+        weight: 1
+      - path: WGT-VIS-foot_ik_R
+        weight: 1
+      - path: WGT-VIS-hand_ik_L
+        weight: 1
+      - path: WGT-VIS-hand_ik_R
+        weight: 1
+      - path: WGT-VIS-thigh_pole_ik_L
+        weight: 1
+      - path: WGT-VIS-thigh_pole_ik_R
+        weight: 1
+      - path: WGT-VIS-upper_arm_pole_ik_L
+        weight: 1
+      - path: WGT-VIS-upper_arm_pole_ik_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DmgTaken
+      takeName: Default Take
+      firstFrame: 100
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: crown
+        weight: 1
+      - path: eyes
+        weight: 1
+      - path: metarig
+        weight: 1
+      - path: metarig/Bone_004
+        weight: 1
+      - path: metarig/Bone_004/foot_L_IK
+        weight: 1
+      - path: metarig/Bone_004/foot_R_IK
+        weight: 1
+      - path: metarig/Bone_004/hips_main
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone/Bone_003
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone/Bone_003/Bone_002
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone/Bone_003/Bone_002/Bone_001
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Back_Root
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Back_Root/Skirt_Back_Tip
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Root
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Root/Skirt_Root_002
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Root/Skirt_Root_002/Skirt_Root_001
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/neck
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/neck/head
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/neck/head/Jaw-Bone
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/f_index_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/f_index_01_L/f_index_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/f_index_01_L/f_index_02_L/f_index_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/thumb_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/thumb_01_L/thumb_02_L/thumb_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L/f_middle_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L/f_middle_01_L/f_middle_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L/f_middle_01_L/f_middle_02_L/f_middle_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L/f_ring_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/f_index_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/f_index_01_R/f_index_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/f_index_01_R/f_index_02_R/f_index_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/thumb_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/thumb_01_R/thumb_02_R/thumb_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R/f_middle_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R/f_middle_01_R/f_middle_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R/f_middle_01_R/f_middle_02_R/f_middle_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R/f_ring_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/foot_L/toe_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/heel_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/heel_L/heel_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/foot_R/toe_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/foot_R_001
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/heel_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/heel_R/heel_02_R
+        weight: 1
+      - path: metarig/Staff_Bone
+        weight: 1
+      - path: Staff
+        weight: 1
+      - path: WGT-chest
+        weight: 1
+      - path: WGT-elbow_hose_L
+        weight: 1
+      - path: WGT-elbow_hose_R
+        weight: 1
+      - path: WGT-elbow_target_ik_L
+        weight: 1
+      - path: WGT-elbow_target_ik_R
+        weight: 1
+      - path: WGT-f_index_01_L
+        weight: 1
+      - path: WGT-f_index_01_R
+        weight: 1
+      - path: WGT-f_index_02_L
+        weight: 1
+      - path: WGT-f_index_02_R
+        weight: 1
+      - path: WGT-f_index_03_L
+        weight: 1
+      - path: WGT-f_index_03_R
+        weight: 1
+      - path: WGT-f_index_L
+        weight: 1
+      - path: WGT-f_index_R
+        weight: 1
+      - path: WGT-f_middle_01_L
+        weight: 1
+      - path: WGT-f_middle_01_R
+        weight: 1
+      - path: WGT-f_middle_02_L
+        weight: 1
+      - path: WGT-f_middle_02_R
+        weight: 1
+      - path: WGT-f_middle_03_L
+        weight: 1
+      - path: WGT-f_middle_03_R
+        weight: 1
+      - path: WGT-f_middle_L
+        weight: 1
+      - path: WGT-f_middle_R
+        weight: 1
+      - path: WGT-f_ring_01_L
+        weight: 1
+      - path: WGT-f_ring_01_R
+        weight: 1
+      - path: WGT-f_ring_02_L
+        weight: 1
+      - path: WGT-f_ring_02_R
+        weight: 1
+      - path: WGT-f_ring_03_L
+        weight: 1
+      - path: WGT-f_ring_03_R
+        weight: 1
+      - path: WGT-f_ring_L
+        weight: 1
+      - path: WGT-f_ring_R
+        weight: 1
+      - path: WGT-foot_fk_L
+        weight: 1
+      - path: WGT-foot_fk_R
+        weight: 1
+      - path: WGT-foot_ik_L
+        weight: 1
+      - path: WGT-foot_ik_R
+        weight: 1
+      - path: WGT-foot_roll_ik_L
+        weight: 1
+      - path: WGT-foot_roll_ik_R
+        weight: 1
+      - path: WGT-forearm_fk_L
+        weight: 1
+      - path: WGT-forearm_fk_R
+        weight: 1
+      - path: WGT-forearm_hose_L
+        weight: 1
+      - path: WGT-forearm_hose_R
+        weight: 1
+      - path: WGT-hand_fk_L
+        weight: 1
+      - path: WGT-hand_fk_R
+        weight: 1
+      - path: WGT-hand_ik_L
+        weight: 1
+      - path: WGT-hand_ik_R
+        weight: 1
+      - path: WGT-head
+        weight: 1
+      - path: WGT-hips
+        weight: 1
+      - path: WGT-knee_hose_L
+        weight: 1
+      - path: WGT-knee_hose_R
+        weight: 1
+      - path: WGT-knee_target_ik_L
+        weight: 1
+      - path: WGT-knee_target_ik_R
+        weight: 1
+      - path: WGT-neck
+        weight: 1
+      - path: WGT-palm_L
+        weight: 1
+      - path: WGT-palm_R
+        weight: 1
+      - path: WGT-root
+        weight: 1
+      - path: WGT-shin_fk_L
+        weight: 1
+      - path: WGT-shin_fk_R
+        weight: 1
+      - path: WGT-shin_hose_L
+        weight: 1
+      - path: WGT-shin_hose_R
+        weight: 1
+      - path: WGT-shoulder_L
+        weight: 1
+      - path: WGT-shoulder_R
+        weight: 1
+      - path: WGT-spine
+        weight: 1
+      - path: WGT-thigh_fk_L
+        weight: 1
+      - path: WGT-thigh_fk_R
+        weight: 1
+      - path: WGT-thigh_hose_L
+        weight: 1
+      - path: WGT-thigh_hose_R
+        weight: 1
+      - path: WGT-thumb_01_L
+        weight: 1
+      - path: WGT-thumb_01_R
+        weight: 1
+      - path: WGT-thumb_02_L
+        weight: 1
+      - path: WGT-thumb_02_R
+        weight: 1
+      - path: WGT-thumb_03_L
+        weight: 1
+      - path: WGT-thumb_03_R
+        weight: 1
+      - path: WGT-thumb_L
+        weight: 1
+      - path: WGT-thumb_R
+        weight: 1
+      - path: WGT-toe_L
+        weight: 1
+      - path: WGT-toe_R
+        weight: 1
+      - path: WGT-torso
+        weight: 1
+      - path: WGT-upper_arm_fk_L
+        weight: 1
+      - path: WGT-upper_arm_fk_R
+        weight: 1
+      - path: WGT-upper_arm_hose_L
+        weight: 1
+      - path: WGT-upper_arm_hose_R
+        weight: 1
+      - path: WGT-VIS-foot_ik_L
+        weight: 1
+      - path: WGT-VIS-foot_ik_R
+        weight: 1
+      - path: WGT-VIS-hand_ik_L
+        weight: 1
+      - path: WGT-VIS-hand_ik_R
+        weight: 1
+      - path: WGT-VIS-thigh_pole_ik_L
+        weight: 1
+      - path: WGT-VIS-thigh_pole_ik_R
+        weight: 1
+      - path: WGT-VIS-upper_arm_pole_ik_L
+        weight: 1
+      - path: WGT-VIS-upper_arm_pole_ik_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Default Take0
+      takeName: Default Take
+      firstFrame: 320
+      lastFrame: 430
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: crown
+        weight: 1
+      - path: eyes
+        weight: 1
+      - path: metarig
+        weight: 1
+      - path: metarig/Bone_004
+        weight: 1
+      - path: metarig/Bone_004/foot_L_IK
+        weight: 1
+      - path: metarig/Bone_004/foot_R_IK
+        weight: 1
+      - path: metarig/Bone_004/hips_main
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone/Bone_003
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone/Bone_003/Bone_002
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Bone/Bone_003/Bone_002/Bone_001
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Back_Root
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Back_Root/Skirt_Back_Tip
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Root
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Root/Skirt_Root_002
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/Skirt_Root/Skirt_Root_002/Skirt_Root_001
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/neck
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/neck/head
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/neck/head/Jaw-Bone
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/f_index_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/f_index_01_L/f_index_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/f_index_01_L/f_index_02_L/f_index_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/thumb_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_01_L/thumb_01_L/thumb_02_L/thumb_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L/f_middle_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L/f_middle_01_L/f_middle_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_02_L/f_middle_01_L/f_middle_02_L/f_middle_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L/f_ring_03_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/f_index_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/f_index_01_R/f_index_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/f_index_01_R/f_index_02_R/f_index_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/thumb_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_01_R/thumb_01_R/thumb_02_R/thumb_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R/f_middle_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R/f_middle_01_R/f_middle_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_02_R/f_middle_01_R/f_middle_02_R/f_middle_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R/f_ring_03_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/foot_L/toe_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/heel_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_L/shin_L/heel_L/heel_02_L
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/foot_R/toe_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/foot_R_001
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/heel_R
+        weight: 1
+      - path: metarig/Bone_004/hips_main/hips/thigh_R/shin_R/heel_R/heel_02_R
+        weight: 1
+      - path: metarig/Staff_Bone
+        weight: 1
+      - path: Staff
+        weight: 1
+      - path: WGT-chest
+        weight: 1
+      - path: WGT-elbow_hose_L
+        weight: 1
+      - path: WGT-elbow_hose_R
+        weight: 1
+      - path: WGT-elbow_target_ik_L
+        weight: 1
+      - path: WGT-elbow_target_ik_R
+        weight: 1
+      - path: WGT-f_index_01_L
+        weight: 1
+      - path: WGT-f_index_01_R
+        weight: 1
+      - path: WGT-f_index_02_L
+        weight: 1
+      - path: WGT-f_index_02_R
+        weight: 1
+      - path: WGT-f_index_03_L
+        weight: 1
+      - path: WGT-f_index_03_R
+        weight: 1
+      - path: WGT-f_index_L
+        weight: 1
+      - path: WGT-f_index_R
+        weight: 1
+      - path: WGT-f_middle_01_L
+        weight: 1
+      - path: WGT-f_middle_01_R
+        weight: 1
+      - path: WGT-f_middle_02_L
+        weight: 1
+      - path: WGT-f_middle_02_R
+        weight: 1
+      - path: WGT-f_middle_03_L
+        weight: 1
+      - path: WGT-f_middle_03_R
+        weight: 1
+      - path: WGT-f_middle_L
+        weight: 1
+      - path: WGT-f_middle_R
+        weight: 1
+      - path: WGT-f_ring_01_L
+        weight: 1
+      - path: WGT-f_ring_01_R
+        weight: 1
+      - path: WGT-f_ring_02_L
+        weight: 1
+      - path: WGT-f_ring_02_R
+        weight: 1
+      - path: WGT-f_ring_03_L
+        weight: 1
+      - path: WGT-f_ring_03_R
+        weight: 1
+      - path: WGT-f_ring_L
+        weight: 1
+      - path: WGT-f_ring_R
+        weight: 1
+      - path: WGT-foot_fk_L
+        weight: 1
+      - path: WGT-foot_fk_R
+        weight: 1
+      - path: WGT-foot_ik_L
+        weight: 1
+      - path: WGT-foot_ik_R
+        weight: 1
+      - path: WGT-foot_roll_ik_L
+        weight: 1
+      - path: WGT-foot_roll_ik_R
+        weight: 1
+      - path: WGT-forearm_fk_L
+        weight: 1
+      - path: WGT-forearm_fk_R
+        weight: 1
+      - path: WGT-forearm_hose_L
+        weight: 1
+      - path: WGT-forearm_hose_R
+        weight: 1
+      - path: WGT-hand_fk_L
+        weight: 1
+      - path: WGT-hand_fk_R
+        weight: 1
+      - path: WGT-hand_ik_L
+        weight: 1
+      - path: WGT-hand_ik_R
+        weight: 1
+      - path: WGT-head
+        weight: 1
+      - path: WGT-hips
+        weight: 1
+      - path: WGT-knee_hose_L
+        weight: 1
+      - path: WGT-knee_hose_R
+        weight: 1
+      - path: WGT-knee_target_ik_L
+        weight: 1
+      - path: WGT-knee_target_ik_R
+        weight: 1
+      - path: WGT-neck
+        weight: 1
+      - path: WGT-palm_L
+        weight: 1
+      - path: WGT-palm_R
+        weight: 1
+      - path: WGT-root
+        weight: 1
+      - path: WGT-shin_fk_L
+        weight: 1
+      - path: WGT-shin_fk_R
+        weight: 1
+      - path: WGT-shin_hose_L
+        weight: 1
+      - path: WGT-shin_hose_R
+        weight: 1
+      - path: WGT-shoulder_L
+        weight: 1
+      - path: WGT-shoulder_R
+        weight: 1
+      - path: WGT-spine
+        weight: 1
+      - path: WGT-thigh_fk_L
+        weight: 1
+      - path: WGT-thigh_fk_R
+        weight: 1
+      - path: WGT-thigh_hose_L
+        weight: 1
+      - path: WGT-thigh_hose_R
+        weight: 1
+      - path: WGT-thumb_01_L
+        weight: 1
+      - path: WGT-thumb_01_R
+        weight: 1
+      - path: WGT-thumb_02_L
+        weight: 1
+      - path: WGT-thumb_02_R
+        weight: 1
+      - path: WGT-thumb_03_L
+        weight: 1
+      - path: WGT-thumb_03_R
+        weight: 1
+      - path: WGT-thumb_L
+        weight: 1
+      - path: WGT-thumb_R
+        weight: 1
+      - path: WGT-toe_L
+        weight: 1
+      - path: WGT-toe_R
+        weight: 1
+      - path: WGT-torso
+        weight: 1
+      - path: WGT-upper_arm_fk_L
+        weight: 1
+      - path: WGT-upper_arm_fk_R
+        weight: 1
+      - path: WGT-upper_arm_hose_L
+        weight: 1
+      - path: WGT-upper_arm_hose_R
+        weight: 1
+      - path: WGT-VIS-foot_ik_L
+        weight: 1
+      - path: WGT-VIS-foot_ik_R
+        weight: 1
+      - path: WGT-VIS-hand_ik_L
+        weight: 1
+      - path: WGT-VIS-hand_ik_R
+        weight: 1
+      - path: WGT-VIS-thigh_pole_ik_L
+        weight: 1
+      - path: WGT-VIS-thigh_pole_ik_R
+        weight: 1
+      - path: WGT-VIS-upper_arm_pole_ik_L
+        weight: 1
+      - path: WGT-VIS-upper_arm_pole_ik_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
